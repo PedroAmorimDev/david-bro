@@ -57,10 +57,10 @@ botão.addEventListener('click', () => {
 //     const containerquevcqueradd = document.getElementById("container que vc quer add")
 //     items.forEach((item) => {
 //         const criardivpracolocaroquevcquer = document.createElement('div')
-//         divPersonagens.innerHTML = `
+//         criardivpracolocaroquevcquer.innerHTML = `
 //         <div class="container que vc quer add">
 //             <div>
-//                 <p>Poção ${item.propriedadedoarrayqueeudeiconsolenofetch(nosegundothen)}</p>
+//                 <p>${item.propriedadedoarrayqueeudeiconsolenofetch(nosegundothen)}</p>
 //             </div>
 //         </div>`
 //         containerquevcqueradd.classList.add('qualquernomedacoisa')
